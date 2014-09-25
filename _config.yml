@@ -1,0 +1,9 @@
+name: SilkCloud
+markdown: redcarpet
+pygments: true
+excerpt_separator: <!--more-->
+paginate: 3
+paginate_path: "blog/page:num"
+safe: true
+lsi: false
+exclude: [vendor]

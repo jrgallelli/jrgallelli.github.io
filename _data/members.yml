@@ -1,0 +1,33 @@
+- image: member-1.jpg
+  name: Junbo Zhang
+  position: Founder &amp; CEO
+  desc: Junbo has built multiple large scale, global commerce platforms - at Microsoft, at Electronic Arts, and now at SilkCloud.  Junbo is a seasoned software development leader and visionary.  As VP of Engineering at Electronic Arts, he implemented a new commerce platform, saving the company tens of millions of dollars. He holds degrees in Computer Science from Ohio State University (M.S.) and Tsinghua University (B.S)  
+  socials:
+    - name: linkedin
+      link: https://www.linkedin.com/pub/junbo-zhang/5/a7/76
+      color: yellow      
+    - name: mail
+      link: mailto:junbo@silkcloud.com
+      color: yellow
+- image: member-2.jpg
+  name: Bharat Shyam
+  position: Founder &amp; COO
+  desc: Bharat led the development from scratch of Microsoft's global platform for commerce and subscriptions for online services including XBOX Live, Office Live, MSN, and Hotmail.  He was General Manager of both Windows Azure and Windows and, recently, the CIO of the state of Washington.  He has over 25 years of experience building software platforms and leading teams.  Bharat has degrees in Computer Science from Stanford University (M.S.) and IIT Bombay (B. Tech)  
+  socials:
+    - name: linkedin
+      link: https://www.linkedin.com/in/bharatshyam
+      color: yellow      
+    - name: mail
+      link: mailto:bharat@silkcloud.com
+      color: yellow
+- image: member-3.jpg
+  name: John Gallelli
+  position:
+  desc: John likes building software that reaches a lot of people. At Microsoft, he was one of the initial software engineers for Microsoft's commerce and subscription platform that today supports tens of millions of people. Recently, he was a software engineer and COO at GifBoom, a popular social network for creating and sharing short-looping videos. He's always up for playing tennis and golf in his spare time. Seattle is home.   
+  socials:
+    - name: linkedin
+      link: https://www.linkedin.com/pub/john-gallelli/4/a2a/626
+      color: yellow
+    - name: mail
+      link: mailto:johng@silkcloud.com
+      color: yellow

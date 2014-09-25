@@ -1,0 +1,10 @@
+- image: silkcloud-slide-1-min.jpg
+  desc_location: right
+  desc:
+    <p>Cloud eCommerce for an omnichannel world</p>
+    <div class='two spacing'></div>
+- image: silkcloud-slide-2-min.jpg
+  desc_location: right
+  desc:
+    <p>Cloud eCommerce for an omnichannel world</p>
+    <div class='two spacing'></div>    
