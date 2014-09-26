@@ -1,39 +1,45 @@
 -
     - title: Unified Identity
       icon: layout
-      link: services.html#identity
+      link: identity
       desc:
          Identify billions of end users securely using many federated identity systems
       color:
     - title: Authorization
       icon: layout
+      link: authorization
       desc:
         Let end users, customer support, administrators, marketing, business people only do things for which they have permission
       color:
     - title: Multi-Channel Catalog
       icon: layout
+      link: catalog      
       desc:
          Customer can flexibly define what they want to sell Products/Digital Goods & Services with bundles, promotions via many different channels
       color:
 -
     - title: Multi-Channel Order Management
       icon: layout
+      link: orders      
       desc:
          End users can create orders via many channels, with different semantics for physical & digital goods & put them in carts to purchase
       color: yellow
     - title: Billing and Payments
       icon: layout
+      link: billing      
       desc:
          End users can see bills & pay worldwide using 100s of payment methods with very low transaction costs
       color: yellow
     - title: Tax, Fraud & Financial Reporting & Compliance
       icon: layout
+      link: tax      
       desc:
         World wide tax, integration with top Fraud providers & GAAP compliant financial reporting
       color: yellow
 -
     - title: Scale, Performance, Reliability
       icon: layout
+      link: scale      
       desc:
          Highly Scalable, Low Latency, High Uptime
       color: blue

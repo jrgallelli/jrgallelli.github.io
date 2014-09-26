@@ -10,65 +10,167 @@ section_id: services
 <div class='full white'>
   <div class='row'>
     <div class='special-title centered-text'>
-      <h2>Unified Identity and Authorization</h2>
+      <h2>Unified Identity</h2>
       <p class='shortline'></p>
     </div>
   </div>
   <div class='spacing'></div>
   <div class='row'>
     <div class='medium-12 large-12 columns'>
-      <p>
-There are many groups of people your eCommerce store needs to identify properly and ensure that the right things happen for them. These include:
-     </p>
 
 <ul>
-  <li> Customers (of course!) </li>
-      <ul>
-      <li> Anonymous customers/end users </li>
-      <li> End users with different users getting different tiers of service </li>
-      <li> Organizations with Administrators if the customer is a company or an organization of some sort </li>
-      <li> Families </li>
-      </ul>
-
-  <li> IT staff </li>
-  <li> Product Managers who update the catalog </li>
-  <li> Business Operations who track the flow of money </li>
-  <li> Customer Support </li>
-  <li> Partners – perhaps channel partners who may be reselling your goods or services </li>
-  <li> Suppliers </li>
+ <li>Single account with multiple logins to all customer web sites, apps, services </li>
+ <li>oAuth Implementation and complete support for federated logins from 3rd party ID providers (Google, Facebook, Twitter, Sina, Tencent, Taboa/Alipay etc) in different markets, platforms & devices (incl. integration with Android, iOS, Windows accounts)</li>
+ <li>REST API for customer properties, apps & partners with centralized login and registration portal with iOS & Android SDK for client side integration. Very easy to compose and layer on customer specific APIs</li>
+ <li>Support multiple layers of identity including anonymous user, customer ID, Login ID for a specific property, family accounts, organizational accounts</li>
+ <li>Customer Support Application with integrated CSR agent IDs for easy administration</li>
+ <li>Authorization framework supports creation of multiple tiers of admins and privileged users & allows customer and partners to very easily provide multiple tiers of service to different users</li>
+ <li>Account security by adopting latest security features such as captcha, brute force detection, two factor authentication using SMS, velocity checking, One-time password (Application specific password).</li>
+ <li>High availability, low latency login & account management through GEO partitioning & replication over multiple data centers. Highly Scalable to billions of end users</li>
+ <li>Zero downtime on upgrades & Lots of experience doing Seamless, no down time migration from legacy systems</li>
 </ul>
-
-<p> Each user should only have access to the functionality on the site that is right for them. </p>
-
-<p> You may have more than one site from your company and all of them may want to share the same logins. </p>
-
-<p> Users may have logins in other popular services that they want to reuse – such as Google, Facebook, Twitter, Sina, Tencent, Taobao, Alipay, LinkedIn etc and they may want to log in from different operating systems and devices.</p>
-
-<p> Of course, you expect your store to be able to adopt the latest security features including captcha, brute force detection, two factor authentication using SMS, velocity checking, one time passwords.</p>
-
-<p> The identity system needs to be really fast, highly available, backed up over multiple data centers and all of this should scale to match your user base – millions to even billions of users. </p>
-
-<p> Finally, your expectation should be that there is no downtime on upgrades.</p>
-
-<p> Our platform can do all this and more. We use open protocols like Oauth2. We enable fine grained role based access control system so customer can define as many roles as needed with arbitrary fine grained access to APIs and functionality.</p>
-
-<p> Last but not the least, we know how hard it is to migrate from your current identity systems and we have a lot of experience migrating from a variety of legacy identity solutions without downtime. </p>
 
     </div>
   </div>
 </div>
 
-<a name="multichannel"></a>
+<a name="authorization"></a>
 <div class='full white'>
   <div class='row'>
     <div class='special-title centered-text'>
-      <h2>Multi Channel</h2>
+      <h2>Authorization</h2>
       <p class='shortline'></p>
     </div>
   </div>
   <div class='spacing'></div>
   <div class='row'>
     <div class='medium-12 large-12 columns'>
+
+<ul>	
+<li>Flexible authorization system based on Oauth2 protocol</li>
+<li>Fine grain role based access control system so customer can define as many roles as needed with arbitrary fine grained access to APIs & functionality. Some examples:</li>
+  <ul>
+  <li>Customer Support Personnel including Partners/Contractors</li>
+  <li>Partners: End Users, Software Engineers, Marketers</li>
+  <li>Advertisers: Administrator, Campaign Manager</li>
+  <li>Admin: Business Operations, Technical Operations, Developers</li>
+  </ul> 	
+<li>A highly scalable entitlement system for end users across multiple properties. This allows all of the customers properties to provide different services to the same customer</li>
+<li>Online license management system (per device or per user) for software and downloadable content</li>
+</ul>
+	
+    </div>
+  </div>
+</div>
+
+<a name="catalog"></a>
+<div class='full white'>
+  <div class='row'>
+    <div class='special-title centered-text'>
+      <h2>Catalog</h2>
+      <p class='shortline'></p>
+    </div>
+  </div>
+  <div class='spacing'></div>
+  <div class='row'>
+    <div class='medium-12 large-12 columns'>
+
+<ul>
+<li>Highly customizable catalog management – build a user interface to manage SKUs, digital goods & services targeted to end users and developers- all tailored to customer’s needs</li>
+<li>Manage Catalog assets such as pictures, videos, description text with a secure work flow</li>
+<li>Easy integration with Content Management Systems, Inventory Management & CDNs</li>
+<li>Flexibility in managing pricing, promotions, bundling and discounts – allow customer & partner web sites lots of options to find the best ways to sell more such as</li>
+<ul>
+<li>Limited time discounts</li>
+<li>Discounts with bundles</li>
+<li>Offers available for special seasons</li>
+</ul>
+<li>Integration with 3rd party Stores: Leverage 3rd party Stores, but manage item catalog and entitlement in customer’s platform in a unified manner. </li>
+<ul>
+	<li>Tmall, JD, Amazon, DangDang, Yihaodian, Flipkart, Snapdeal, EBay etc </li>
+</ul>
+</ul>	
+	
+    </div>
+  </div>
+</div>
+
+<a name="orders"></a>
+<div class='full white'>
+  <div class='row'>
+    <div class='special-title centered-text'>
+      <h2>Order Management & Carts</h2>
+      <p class='shortline'></p>
+    </div>
+  </div>
+  <div class='spacing'></div>
+  <div class='row'>
+    <div class='medium-12 large-12 columns'>
+
+<ul>
+<li>Highly Scalable Order Management to handle launch or holiday spikes</li>
+<li>Integration with fulfilment centers & Inventory Management software – Oracle, SAP, BaiSheng</li>
+<li>Handle common and complex business rules such as pre-order, backorder</li>
+<li>Pre & Post order actions for App, customer or Partner to enable easy customization of built in business logic</li>
+<li>Order History for self and customer support</li>
+<li>Enable as many named carts as needed – so each customer property can have its own cart</li>
+<li>Ability to do price estimates in carts before purchasing including taxes</li>
+</ul>	
+	
+    </div>
+  </div>
+</div>
+
+<a name="billing"></a>
+<div class='full white'>
+  <div class='row'>
+    <div class='special-title centered-text'>
+      <h2>Billing & Payments</h2>
+      <p class='shortline'></p>
+    </div>
+  </div>
+  <div class='spacing'></div>
+  <div class='row'>
+    <div class='medium-12 large-12 columns'>
+
+<ul>	
+<li>Negotiated low transaction costs with the best payment processors, aggregators and fraud systems passed on to customer</li>
+<li>Hundreds of payment methods worldwide including Credit Card, ACH, Paypal, Alipay, Union Pay, Mobile Payment, Bank Transfer, Invoicing, Local Payment Types</li>
+<li>Flexible & pluggable payment gateway architecture that could easily support plug in of additional payment processors/methods without needing to change the rest of commerce system.</li>
+<li>Flexible billing capability supporting threshold billing to reduce overhead of micro transactions</li>
+<li>Currency based stored value system (Wallet) and branded virtual currency (Gold Coins, Points) supporting auto refill for customer and Partners</li>
+<li>Highly secure prepaid card, digital coupon system with retail Point Of Sale activation.</li>
+<li>Flexible subscription management system that could provide flexible subscription terms, various billing schedules, usage based billing</li>
+<li>Billing History for self care and customer support</li>
+<li>Permanent archive of all payments and billing history for future audits</li>
+</ul>
+	
+    </div>
+  </div>
+</div>
+
+
+<a name="tax"></a>
+<div class='full white'>
+  <div class='row'>
+    <div class='special-title centered-text'>
+      <h2>Tax, Fraud & Financial Reporting & Compliance</h2>
+      <p class='shortline'></p>
+    </div>
+  </div>
+  <div class='spacing'></div>
+  <div class='row'>
+    <div class='medium-12 large-12 columns'>
+
+<ul>
+<li>Compliance & worldwide tax computation across all jurisdictions  with tax filing reports</li>
+<li>Integration with top fraud vendors with favorable transaction cost savings completely passed on to customer</li>
+<li>Built in deferral revenue recognition system for GAAP compliance</li>
+<li>Permanent archival of billing, tax and revenue recognition to enable future audits</li>
+<li>Tight controls around access to enable SOX compliance</li>
+<li>PCI Compliance in the near future</li>
+</ul>
+	
     </div>
   </div>
 </div>
@@ -77,13 +179,51 @@ There are many groups of people your eCommerce store needs to identify properly 
 <div class='full white'>
   <div class='row'>
     <div class='special-title centered-text'>
-      <h2>Scale</h2>
+      <h2>Scale, Performance & Reliability</h2>
       <p class='shortline'></p>
     </div>
   </div>
   <div class='spacing'></div>
   <div class='row'>
     <div class='medium-12 large-12 columns'>
+
+<ul>	
+<li>Highly scalable system using a scalability unit architecture which allows linear scaleout by adding new compute and storage instances.</li>
+<li>Advanced system monitoring infrastructure using fine tuned instrumentation. </li>
+<li>Highly available system using data replication -- in data center and across data center. Makes it easy to implement business continuity planning level 5 and above.</li>
+<li>Service deployment infrastructure supports near zero service down time system patch and system upgrade</li>
+<li>Geo distributed architecture implies low latency – customer’s data is near them</li>
+<li>Restful architecture means that CDN & Browser can cache publicly viewable information for quick retrieval</li>
+</ul>
+	
     </div>
   </div>
 </div>
+
+<a name="security"></a>
+<div class='full white'>
+  <div class='row'>
+    <div class='special-title centered-text'>
+      <h2>Security First Design</h2>
+      <p class='shortline'></p>
+    </div>
+  </div>
+  <div class='spacing'></div>
+  <div class='row'>
+    <div class='medium-12 large-12 columns'>
+
+<ul>
+<li>Security Review </li>
+<li>Penetration Testing</li>
+<li>Threat Modeling</li>
+<li>Static code analysis</li>
+<li>Timely security updates to underlying system</li>
+<li>Traffic throttling, whilelist/blacklist</li>
+<li>Strong encryption in communication and storage.</li>
+<li>Role base access control</li>
+</ul>	
+
+    </div>
+  </div>
+</div>
+
