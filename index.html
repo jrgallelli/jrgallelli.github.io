@@ -28,40 +28,6 @@ works:
     title: Flower book
     category: Design &amp; Development
 
-services:
-  -
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color:
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color:
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color:
-  -
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color: yellow
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color: yellow
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color: yellow
-
 milestones:
   - from: 0
     to: 69
@@ -89,51 +55,9 @@ bars:
 
 {% include slider.html %}
 
-<div class='full white'>
-  <div class='row'>
-    <div class='special-title centered-text'>
-      <i class='icon-users'></i>
-      <h2>Our Mission</h2>
-      <p class='shortline'></p>
-    </div>
-    <div class='spacing'></div>
-    <div class='spacing'></div>
-  </div>
-  <div class='row'>
-    <div class='medium-12 large-12 columns'>
-      <p>
-        <span class='drop-letters'>M</span>
-        obile and cloud services are changing the eCommerce landscape.  We are building an enterprise platform to meet the needs of the next generation of eCommerce services.  We are a team of 30+ experienced engineers and product managers that have worked together for many years building commerce systems. Together we have launched more than two dozen eCommerce businesses across several companies, totaling over $7B in annual revenue and growing. We are passionate about building the next great eCommerce platform and are already working with some of the leading technology companies in the world.  We are well-funded with offices in both Seattle and Shanghai. Come join us!
-      </p>
-    </div>
-  </div>
-</div>
+{% include whys.html %}
 
-<div class='full white'>
-  <div class='row'>
-    <div class='special-title centered-text'>
-      <i class='icon-map'></i>
-      <h2>Our services</h2>
-      <p>We are passionate about web design &amp; development</p>
-      <p class='shortline'></p>
-    </div>
-    <div class='two spacing'></div>
-  </div>
+{% include services.html %}
 
-  {% for row in page.services %}
-    <div class="row">
-      {% for service in row %}
-        <div class='medium-4 large-4 columns icon-text'>
-          <i class='icon-{{service.icon}} {{service.color}}'></i>
-          <h3>{{service.title}}</h3>
-          <p>{{service.desc}}</p>
-        </div>
-      {% endfor %}
-    </div>
-    {% unless forloop.last %}
-      <div class="spacing"></div>
-    {% endunless %}
-  {% endfor %}
-</div>
 
 
