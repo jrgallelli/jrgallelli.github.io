@@ -3,7 +3,7 @@
       icon: layout
       link: identity
       desc:
-         Identify billions of end users & employees, contractors, partners securely using many federated identity systems.
+         Identify billions of end users & employees, contractors, partners securely. Let them use Google, Facebook or any other login id.
       color:
     - title: Authorization
       icon: layout
