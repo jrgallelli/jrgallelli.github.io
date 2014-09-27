@@ -3,7 +3,7 @@
       icon: layout
       link: identity
       desc:
-         Identify billions of end users securely using many federated identity systems; Easily manage all your employees, contractors and partner access to the store
+         Identify billions of end users securely using many federated identity systems. Easily manage all your employees, contractors and partner access to the store
       color:
     - title: Authorization
       icon: layout
