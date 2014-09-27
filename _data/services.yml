@@ -43,6 +43,12 @@
       desc:
          Highly Scalable, Low Latency, High Uptime
       color: blue
+     - title: Security First Design & Operations
+      icon: layout
+      link: security      
+      desc:
+         Security designed into the platform and baked into operations
+      color: blue
     - title: SDK
       icon: layout
       desc:
