@@ -51,6 +51,7 @@
       color: blue          
     - title: SDK
       icon: layout
+      link: sdk
       desc:
          With easy to use store specific APIs for Android, iOS and Windows
       color: blue    
